@@ -1,0 +1,1 @@
+This example demonstrates a common pitfall in Ada when working with arrays: shallow copying.  When one array is assigned to another, a shallow copy is performed. This means both arrays point to the same memory location. Any modifications to one array affect the other.  The solution shows how to avoid this by performing a deep copy, ensuring independent array instances.
